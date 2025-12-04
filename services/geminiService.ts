@@ -61,7 +61,7 @@ import { GoogleGenAI, Chat } from "@google/genai";
 const apiKey = (import.meta as any).env?.VITE_GEMINI_API_KEY as string | undefined;
 
 // 打印日志方便调试（生产环境可以看到 Key 是否成功加载，但不会打印 Key 的具体内容）
-console.log("[Gemini Service] API Key detected:", !!apiKey);
+// console.log("[Gemini Service] API Key detected:", !!apiKey);
 
 // 初始化 AI 客户端
 // 如果没有 Key，ai 变量就是 null，后续函数会自动使用兜底文案
