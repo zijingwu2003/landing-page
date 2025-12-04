@@ -1,0 +1,7 @@
+{
+  "name": "ReWear - Sustainable Fashion",
+  "description": "A waitlist landing page for a sustainable fashion marketplace with geo-targeting features.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
